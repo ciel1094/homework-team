@@ -13,7 +13,7 @@ h1 {
   font-weight: bold;
 }
 body {
-  background-color: mintcream;
+  background-color: springgreen;
 }
 
 header {
@@ -56,4 +56,8 @@ header a {
   margin: 125px;
   font-size: 25px;
   text-align: center;
+}
+
+a {
+  text-decoration: none;
 }
