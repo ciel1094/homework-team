@@ -1,0 +1,64 @@
+h1 {
+  width: 100%;
+  height: 100%;
+
+  color: black;
+  padding: 2em 3em;
+  border: none;
+  transition: all 0.3s ease;
+
+  text-transform: uppercase;
+  outline: none;
+  align-self: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+body {
+  background-color: mintcream;
+}
+
+header {
+  animation: random-bg 2s linear infinite, ease infinite;
+}
+
+@keyframes random-bg {
+  from {
+    filter: hue-rotate(0);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.start-fun {
+  background-color: mintcream !important;
+  /* change color of button text when fun is started   */
+}
+
+header {
+  background-color: aquamarine;
+  width: 100%;
+  height: 100px;
+  margin: -20px;
+
+  color: black;
+  padding: 2em 3em;
+  border: none;
+  transition: all 0.5s ease;
+
+  text-transform: uppercase;
+  outline: none;
+  align-self: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+header a {
+  margin: 130px;
+  font-size: 28px;
+  text-align: center;
+}
+
+body h1 {
+  text-shadow: #333;
+}
